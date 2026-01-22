@@ -1,0 +1,73 @@
+[
+  {
+    "intent": "greeting",
+    "question": "hi",
+    "answer": [
+      "Hello 👋 How can I help you today?",
+      "Hi there! What can I do for you?",
+      "Hey 😊 How may I assist you?"
+    ]
+  },
+  {
+    "intent": "greeting",
+    "question": "hello",
+    "answer": [
+      "Hello 👋 How can I help you today?",
+      "Greetings! Feel free to ask me anything.",
+      "Hi! How can I support you today?"
+    ]
+  },
+  {
+    "intent": "greeting",
+    "question": "hey",
+    "answer": [
+      "Hey 😊 What can I help you with?",
+      "Hi! Ask me about admissions, fees, or results.",
+      "Hello! How can I assist you?"
+    ]
+  },
+
+  {
+    "intent": "admission",
+    "question": "what is the admission process",
+    "answer": "Admissions are done through counseling based on merit."
+  },
+  {
+    "intent": "admission",
+    "question": "how to get admission",
+    "answer": "You can get admission through the official counseling process."
+  },
+
+  {
+    "intent": "fees",
+    "question": "what is the course fee",
+    "answer": "The course fee varies depending on the department."
+  },
+  {
+    "intent": "fees",
+    "question": "tell me the fees",
+    "answer": "Fee details are available from the college office or website."
+  },
+
+  {
+    "intent": "results",
+    "question": "how can i check my results",
+    "answer": "Results can be checked through the official college portal."
+  },
+
+  {
+    "intent": "timetable",
+    "question": "where can i see the timetable",
+    "answer": "The timetable is available on the college notice board and website."
+  },
+
+  {
+    "intent": "goodbye",
+    "question": "bye",
+    "answer": [
+      "Goodbye 👋 Have a great day!",
+      "Bye 😊 Feel free to come back anytime.",
+      "See you later!"
+    ]
+  }
+]

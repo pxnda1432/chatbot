@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI College Helpdesk Chatbot</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<h2>🤖 AI College Helpdesk</h2>
+
+<div id="chatbox"></div>
+
+<input
+  type="text"
+  id="msg"
+  placeholder="Ask your question"
+  onkeydown="if(event.key === 'Enter'){ send(); }"
+/>
+
+<button onclick="send()">Send</button>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
